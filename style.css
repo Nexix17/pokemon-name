@@ -1,0 +1,22 @@
+h3
+{
+    font-size:25px!important;
+}
+
+.btn-success:hover
+{
+    background:linear-gradient (purple 25%,pink 25%,blue 25%,lightblue 25%);
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow:1px 1p x 38px red};
+    to{box-shadow:1px 1p x 38px rgb(251, 255, 0)};
+}
